@@ -145,7 +145,7 @@ void monero_init_ux() {
 #else
 
     snprintf(G_monero_vstate.ux_wallet_account_name, sizeof(G_monero_vstate.ux_wallet_account_name),
-             "XMR / %d", N_monero_pstate->account_id);
+             "WOW / %d", N_monero_pstate->account_id);
     os_memmove(G_monero_vstate.ux_wallet_public_short_address, G_monero_vstate.ux_address, 5);
     os_memmove(G_monero_vstate.ux_wallet_public_short_address + 7,
                G_monero_vstate.ux_address + 95 - 5, 5);
